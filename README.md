@@ -23,3 +23,41 @@ Memory leak when starting a new map.
 
 ## Team Leader
 Github repository is publicly accessible, here: https://github.com/JasonHutton/BigOnion.git The master branch should be used to build from.
+
+## Milestones - Alpha
+Focus on game engine
+
+Have basic functions for
+
+- Model loading
+- Player controls
+- Sound effects and music
+- Communication between components
+- 2D UI (simple HUD)
+- Physics for player car
+
+
+## Milestones - Beta
+
+Have an almost complete game. 
+All the following features should be finished:
+- Models for game stage
+- Player controls
+- Win/Loss condition
+- Menus and other UI elements (pause, win and lose screens)
+- Physics for the game
+- Sound effects and music
+- Opponent AI cars
+Get the player test report and improve based on the feedback
+
+## Milestones - Final
+
+- Focus mainly on bug fixes and polishing
+- Finish implementing the game if not already complete
+- Make final adjustments to art assets like light, color, and music based on feedback
+- Optimize game performance.
+- Improve AI opponent behavior if implemented.
+- Final testing
+
+
+
