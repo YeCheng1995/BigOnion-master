@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{df790805-5b2b-4d7f-b561-0b21dec3e897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{2941abc6-8bd8-4e9c-b90d-1e17e11c690d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\graphic">
+      <UniqueIdentifier>{bbf2fb44-bc50-4cb9-9b1b-5c6c88d5a4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{b06836bb-0fcd-42ac-98b7-7971fe607602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{f29bd02f-2e84-42e7-a8d4-4b1f5b40cbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\graphic">
+      <UniqueIdentifier>{30ddeb68-c3b5-41c0-bcea-13f2d4ecba45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\audio">
+      <UniqueIdentifier>{405d96ca-4cb3-4aa7-9922-d9f55eb45183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\audio">
+      <UniqueIdentifier>{bdff59da-e153-45ab-b871-4b0e430066da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\ECS">
+      <UniqueIdentifier>{1455c8f3-87b3-4724-a98a-ef0054b637c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\ECS">
+      <UniqueIdentifier>{ff2ad7fa-ac04-48f1-afe0-a9f87e35b788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\components">
+      <UniqueIdentifier>{b60e7236-9103-47bc-a231-fd02e2ebb780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\components">
+      <UniqueIdentifier>{9c8af86e-8254-42c7-bd52-b0de56323ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\utils">
+      <UniqueIdentifier>{97edd3ce-3ddc-4829-80ef-05eac1ebf6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\FileSystem">
+      <UniqueIdentifier>{d6462bc9-3f31-41a5-8a73-084abd6ae64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\FileSystem">
+      <UniqueIdentifier>{f94ff06b-d921-43a5-bc99-d285e69dd070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\input">
+      <UniqueIdentifier>{f0b81687-a563-4a58-a3a9-cb7d80f065d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\input">
+      <UniqueIdentifier>{fee87d48-1946-4096-817a-8f9a720ff3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\Settings">
+      <UniqueIdentifier>{b587acf7-7fd3-41f7-b848-795a0af61c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\Settings">
+      <UniqueIdentifier>{07eae52e-6183-4fc2-abfc-0c7969313032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\Utils">
+      <UniqueIdentifier>{fcd7d97c-296e-4167-9fff-03a50e0c9738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{d7dcca34-6712-4397-82ad-b8a3f865b02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\yaml-cpp">
+      <UniqueIdentifier>{7018e820-3daf-44c1-b695-85d13ae674f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{497bfef7-58ac-4f1f-82ba-39fcdcb99052}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\game_loader.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BOEngine.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\graphic\camera.cpp">
+      <Filter>Source Files\engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\graphic\shader.cpp">
+      <Filter>Source Files\engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\graphic\model.cpp">
+      <Filter>Source Files\engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\audio\AudioEngine.cpp">
+      <Filter>Source Files\engine\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\GameWorld.cpp">
+      <Filter>Source Files\engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\GameObject.cpp">
+      <Filter>Source Files\engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\graphic\ShaderAttribute.cpp">
+      <Filter>Source Files\engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\graphic\ViewRenderer.cpp">
+      <Filter>Source Files\engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\RigidBodyComponent.cpp">
+      <Filter>Source Files\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\Transform.cpp">
+      <Filter>Source Files\engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Source Files\engine\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\engine\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Source Files\engine\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFile.cpp">
+      <Filter>Source Files\engine\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\RenderComponent.cpp">
+      <Filter>Source Files\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\GameWorldHelper.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Source Files\engine\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\engine\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\engine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\engine\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandSystem.cpp">
+      <Filter>Source Files\engine\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\ComponentManager.cpp">
+      <Filter>Source Files\engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\AudioPlayerComponent.cpp">
+      <Filter>Source Files\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\CarControlComponent.cpp">
+      <Filter>Source Files\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\input\ContextControl.cpp">
+      <Filter>Source Files\engine\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\input\InputHandler.cpp">
+      <Filter>Source Files\engine\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\input\KeyInput.cpp">
+      <Filter>Source Files\engine\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\input\GameInput.cpp">
+      <Filter>Source Files\engine\input</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioListenerComponent.cpp">
+      <Filter>Source Files\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\graphic\ThirdPersonCamera.cpp">
+      <Filter>Source Files\engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\components\RaceGameComponent.cpp">
+      <Filter>Source Files\game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\graphic\Skybox.cpp">
+      <Filter>Source Files\engine\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\binary.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\convert.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\directives.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\emit.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\emitfromevents.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\emitter.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\emitterstate.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\emitterutils.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\exceptions.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\exp.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\memory.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\node.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\node_data.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\nodebuilder.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\nodeevents.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\null.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\ostream_wrapper.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\parse.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\parser.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\regex_yaml.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\scanner.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\scanscalar.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\scantag.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\scantoken.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\simplekey.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\singledocparser.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\stream.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\yaml-cpp\tag.cpp">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="object_loader.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\engine\BOEngine.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game_loader.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\camera.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\model.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\model_mesh.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\shader_m.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\audio\AudioEngine.h">
+      <Filter>Header Files\engine\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\GameWorld.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Component.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\GameObject.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\GameObject.fwd.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Component.fwd.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\GameWorld.fwd.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\utils\utils.h">
+      <Filter>Header Files\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\utils\Vector3.h">
+      <Filter>Header Files\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\resource.h">
+      <Filter>Header Files\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\ShaderAttribute.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\ViewRenderer.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\RigidBodyComponent.h">
+      <Filter>Header Files\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Transform.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Header Files\engine\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\engine\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFile.h">
+      <Filter>Header Files\engine\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessibleFileI.h">
+      <Filter>Header Files\engine\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFile.h">
+      <Filter>Header Files\engine\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\RenderComponent.h">
+      <Filter>Header Files\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BOEngine.fwd.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\GameWorldHelper.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_glfw_gl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\stb_rect_pack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\stb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\stb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Header Files\engine\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\engine\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\engine\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSystem.h">
+      <Filter>Header Files\engine\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\ComponentManager.h">
+      <Filter>Header Files\engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\AudioPlayerComponent.h">
+      <Filter>Header Files\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\TypeTestComponent.h">
+      <Filter>Header Files\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\CarControlComponent.h">
+      <Filter>Header Files\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\input\ContextControl.h">
+      <Filter>Header Files\engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\input\InputHandler.h">
+      <Filter>Header Files\engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\input\KeyInput.h">
+      <Filter>Header Files\engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\input\GameInput.h">
+      <Filter>Header Files\engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioListenerComponent.h">
+      <Filter>Header Files\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\ThirdPersonCamera.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\components\RaceGameComponent.h">
+      <Filter>Header Files\game\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\graphic\Skybox.h">
+      <Filter>Header Files\engine\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\anchor.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\binary.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\collectionstack.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\directives.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\dll.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\emitfromevents.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\emitter.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\emitterdef.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\emittermanip.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\emitterstate.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\emitterstyle.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\emitterutils.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\eventhandler.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\exceptions.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\exp.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\indentation.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\mark.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\nodebuilder.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\nodeevents.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\null.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\ostream_wrapper.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\parser.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\ptr_vector.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\regex_yaml.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\regeximpl.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\scanner.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\scanscalar.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\scantag.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\setting.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\singledocparser.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\stlemitter.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\stream.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\streamcharsource.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\stringsource.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\tag.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\token.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\traits.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\yaml-cpp\yaml.h">
+      <Filter>Source Files\libs\yaml-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="object_loader.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\utils\ThreadPool.h">
+      <Filter>Header Files\engine\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\engine\vertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\engine\graphic\shader\model_loading.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\engine\graphic\shader\model_loading.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
